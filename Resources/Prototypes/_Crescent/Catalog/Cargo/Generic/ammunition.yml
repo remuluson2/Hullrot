@@ -234,15 +234,15 @@
 
 #Shipgun Rework Ammo Below
 
-- type: cargoProduct
-  id: Shuttle AmmoGeneric
-  icon:
-    sprite:
-    state:
-  product: Crate Ammo
-  cost: 000
-  category: cargoproduct-category-name-shuttleammo
-  group: genericAmmo
+# - type: cargoProduct
+#   id: Shuttle AmmoGeneric
+#   icon:
+#     sprite:
+#     state:
+#   product: Crate Ammo
+#   cost: 000
+#   category: cargoproduct-category-name-shuttleammo
+#   group: genericAmmo
 
 #20mm Screamer
 
@@ -308,6 +308,18 @@
   category: cargoproduct-category-name-shuttleammo
   group: genericAmmo
 
+#48mm Longbow
+
+- type: cargoProduct
+  id: Shuttle48mmAmmoGeneric
+  icon:
+    sprite: _Crescent/Objects/Turrets/Ammunition/Cartridge/shortbow.rsi
+    state: shortbow
+  product: Crate48mmAmmo
+  cost: 18000
+  category: cargoproduct-category-name-shuttleammo
+  group: genericAmmo
+
 #50mm Whistler
 
 - type: cargoProduct
@@ -337,6 +349,18 @@
     state: base-gyrostable
   product: Crate50mmAmmoGyrostable
   cost: 9000
+  category: cargoproduct-category-name-shuttleammo
+  group: genericAmmo
+
+#60mm Azimuth
+
+- type: cargoProduct
+  id: Shuttle60mmAmmoGeneric
+  icon:
+    sprite: _Crescent/Objects/Turrets/Ammunition/Cartridge/azimuth.rsi
+    state: azimuthrocket
+  product: Crate60mmAmmo
+  cost: 21000
   category: cargoproduct-category-name-shuttleammo
   group: genericAmmo
 
@@ -384,6 +408,18 @@
   category: cargoproduct-category-name-shuttleammo
   group: genericAmmo
 
+#95mm Arbalest
+
+- type: cargoProduct
+  id: Shuttle95mmAmmoGeneric
+  icon:
+    sprite: _Crescent/Objects/Turrets/Ammunition/Cartridge/arbalest.rsi
+    state: arbalest
+  product: Crate95mmAmmo
+  cost: 25000
+  category: cargoproduct-category-name-shuttleammo
+  group: genericAmmo
+
 #120mm Pithatis
 
 - type: cargoProduct
@@ -416,54 +452,6 @@
   category: cargoproduct-category-name-shuttleammo
   group: genericAmmo
 
-#300m Pithis
-
-- type: cargoProduct
-  id: Shuttle300mmAmmoGeneric
-  icon:
-    sprite: _Crescent/Objects/Turrets/Ammunition/Cartridge/pithis.rsi
-    state: ap
-  product: Crate300mmAmmo
-  cost: 160000
-  category: cargoproduct-category-name-shuttleammo
-  group: genericAmmo
-
-#48mm Longbow
-
-- type: cargoProduct
-  id: Shuttle48mmAmmoGeneric
-  icon:
-    sprite: _Crescent/Objects/Turrets/Ammunition/Cartridge/shortbow.rsi
-    state: shortbow
-  product: Crate48mmAmmo
-  cost: 18000
-  category: cargoproduct-category-name-shuttleammo
-  group: genericAmmo
-
-#60mm Azimuth
-
-- type: cargoProduct
-  id: Shuttle60mmAmmoGeneric
-  icon:
-    sprite: _Crescent/Objects/Turrets/Ammunition/Cartridge/azimuth.rsi
-    state: azimuthrocket
-  product: Crate60mmAmmo
-  cost: 21000
-  category: cargoproduct-category-name-shuttleammo
-  group: genericAmmo
-
-#95mm Arbalest
-
-- type: cargoProduct
-  id: Shuttle95mmAmmoGeneric
-  icon:
-    sprite: _Crescent/Objects/Turrets/Ammunition/Cartridge/arbalest.rsi
-    state: arbalest
-  product: Crate95mmAmmo
-  cost: 25000
-  category: cargoproduct-category-name-shuttleammo
-  group: genericAmmo
-
 #240mm Gargoyle
 
 - type: cargoProduct
@@ -473,6 +461,18 @@
     state: gargoyle
   product: Crate240mmAmmo
   cost: 30000
+  category: cargoproduct-category-name-shuttleammo
+  group: genericAmmo
+
+#300m Pithis
+
+- type: cargoProduct
+  id: Shuttle300mmAmmoGeneric
+  icon:
+    sprite: _Crescent/Objects/Turrets/Ammunition/Cartridge/pithis.rsi
+    state: ap
+  product: Crate300mmAmmo
+  cost: 16000
   category: cargoproduct-category-name-shuttleammo
   group: genericAmmo
 
