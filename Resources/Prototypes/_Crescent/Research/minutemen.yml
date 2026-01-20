@@ -37,6 +37,8 @@
 
 #tier 2
 
+# (Krammer and some other gun in the future maybe)
+
 - type: technology
   id: MinutemenHardsuit
   name: research-technology-minutemen-hardsuit
@@ -73,4 +75,16 @@
   recipeUnlocks:
   - CorsairLPC
 
-# (Krammer and some other gun in the future maybe)
+#tier 3
+
+- type: technology
+  id: MinutemenNTCorvette
+  name: research-technology-minutemen-light-nt-corvette
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Minutemen
+  tier: 3
+  cost: 16000
+  recipeUnlocks:
+  - ExecutionerLPC

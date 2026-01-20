@@ -53,6 +53,16 @@
     ShipComponents: 1000
     ShipHull: 1000
 
+- type: latheRecipe
+  id: ExecutionerLPC
+  result: ShipVoucherExecutioner
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 3500
+    ShipComponents: 6000
+    ShipHull: 3500
+    NanotrasenElectronics: 1000
+
 #HARDSUITS
 
 - type: latheRecipe

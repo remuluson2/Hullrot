@@ -1314,7 +1314,7 @@
 - type: entity
   parent: BaseItem
   id: ShipVoucherAdjudicator
-  name: TSP 'Adjudicator' pattern LPC fabprint disk
+  name: TS 'Adjudicator' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with TSP 'Adjudicator' attack shuttle. Has to be redeemed at a shipyard console.
   components:
   - type: Item

@@ -44,6 +44,7 @@ research-technology-minutemen-light-crafts = minutemen light crafts
 research-technology-minutemen-heavy-artillery-destroyer = minutemen artillery destroyer
 research-technology-minutemen-light-missile-destroyer = minutemen missile destroyer
 research-technology-minutemen-hardsuit = minutemen combat EVA
+research-technology-minutemen-light-nt-corvette = minutemen high tech NT corvette
 
 # INTERDYNE
 research-technology-interdyne-clothing = Basic Clothing

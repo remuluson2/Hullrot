@@ -142,7 +142,7 @@
         Blunt: 35
         Slash: 25
         Piercing: 60
-        Heat: 10
+        Heat: 20
         Caustic: 15
   - type: ClothingSpeedModifier
     walkModifier: 0.85
@@ -155,8 +155,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, StreeCredRedeemableLow]
   id: ClothingOuterHardsuitCMMEnsing
-  name: Ensign Hardsuit
-  description: new suit desc.
+  name: ensign patrol suit
+  description: A gliessian attempt to modernize the design of the reinforced-patrol hardsuit and cut down its weigh. Due to lack of needed technology and resources some armor had to be sacrficed in order to achive that goal.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/CMM/OuterClothing/ensign.rsi
