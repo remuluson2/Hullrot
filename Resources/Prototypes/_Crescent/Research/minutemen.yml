@@ -1,0 +1,49 @@
+#tier 1
+#--- Funny clutter ---#
+# (riot shields and nightsticks)
+# (narcan autoinjector and gun)
+# (maybe nimrod idk)
+
+#--- MAYBE IF NOT MAPPED ---#
+# (shipworks & material processing)  
+# (explosives, propelland and casings production)
+# (ammo assembly)
+
+- type: technology
+  id: MinutemenHybridCorvette
+  name: research-technology-minutemen-hybrid-corvette
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Minutemen
+  tier: 1
+  cost: 6000
+  recipeUnlocks:
+  - MinutemanLPC
+
+#tier 2
+- type: technology
+  id: MinutemenHeavyDestroyer
+  name: research-technology-minutemen-light-artillery-destroyer
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Minutemen
+  tier: 2
+  cost: 6000
+  recipeUnlocks:
+  - ArbiterLPC
+  
+- type: technology
+  id: MinutemenLightMissileDestroyer
+  name: research-technology-minutemen-light-missile-corvette
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Minutemen
+  tier: 2
+  cost: 6000
+  recipeUnlocks:
+  - CorsairLPC
+# (unused hardsuit sprite)
+# (one or two okay guns maybe)

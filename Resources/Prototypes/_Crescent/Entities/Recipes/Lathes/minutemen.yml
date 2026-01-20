@@ -1,0 +1,27 @@
+- type: latheRecipe
+  id: ArbiterLPC
+  result: ShipVoucherArbiter
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 4000
+    ShipComponents: 3000
+    ShipHull: 5000
+
+- type: latheRecipe
+  id: CorsairLPC
+  result: ShipVoucherCorsair
+  completetime: 1
+  materials: #PLACEHOLDER PRICE
+    StarshipEngineComponents: 4000
+    ShipComponents: 3000
+    ShipHull: 5000
+
+- type: latheRecipe
+  id: MinutemanLPC
+  result: ShipVoucherMinuteman
+  completetime: 1
+  materials: #PLACEHOLDER PRICE
+    StarshipEngineComponents: 4000
+    ShipComponents: 3000
+    ShipHull: 5000
+

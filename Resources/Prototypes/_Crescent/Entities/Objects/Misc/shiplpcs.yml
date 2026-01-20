@@ -1326,6 +1326,91 @@
   - type: ShipVoucher
     ship: Executioner
 
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherArbiter
+  name: TS 'Arbiter' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Gliessian arbiter-class destroyer. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 32000
+  - type: ShipVoucher
+    ship: Arbiter
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherCorsair
+  name: TS 'Corsair' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Gliessian Corsair-class missile destroyer. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 24000
+  - type: ShipVoucher
+    ship: Corsair
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherMinuteman
+  name: TS 'Minuteman' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Gliessian Minuteman-class hybrid corvette. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 22000
+  - type: ShipVoucher
+    ship: Minuteman
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherObjection
+  name: TS 'Objection' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Gliessian Objection-class hybrid fighter. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 8000
+  - type: ShipVoucher
+    ship: Objection
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherAttorney
+  name: TS 'Attorney' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Gliessian Attorney-class ballistic corvette. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 16000
+  - type: ShipVoucher
+    ship: Attorney
+
 #SRM
 
 - type: entity

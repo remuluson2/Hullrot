@@ -358,6 +358,11 @@
       - TradebandTranslator
       - ClothingBeltSalvageWebbing
     dynamicRecipes:
+      #Minutemen
+      - MinutemanLPC
+      - CorsairLPC
+      - ArbiterLPC
+      #MinutemenEnd
       - CreoleTranslator
       - LowImperialTranslator
       - FreespeakTranslator

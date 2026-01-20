@@ -1,0 +1,37 @@
+# Author Info
+# Discord: the_inbetwixt
+
+- type: vessel
+  id: Attorney
+  name: TS Attorney
+  description: |
+    LOADOUT: 2x 50mm 'Whistler' gatlings, 2x 60mm 'Azimuth' LMLs
+    MINIMUM CREW: 1x Pilot, 1x Loader Optional
+    DESC.
+  price: 35000
+  category: Small
+  group: None
+  path: /Maps/_Crescent/Shuttles/CMM/attorney.yml
+
+- type: gameMap
+  id: Attorney
+  mapName: 'TS Attorney'
+  mapPath: /Maps/_Crescent/Shuttles/CMM/attorney.yml
+  minPlayers: 0
+  stations:
+    Attorney:
+      stationProto: StandardCrescentExpeditionVessel
+      components:
+        - type: VesselIcon
+          iffIcon:
+            sprite: _Crescent/ShipIcons/ifficons.rsi
+            state: corvette
+        - type: StationNameSetup
+          mapNameTemplate: 'TS Attorney {1}'
+          nameGenerator:
+           !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: VesselDesignation
+          designation: vessel-designation-corvette
+        - type: VesselDescription
+          description: A compact corvette, good at brawling. Skilled pilot might pick targets on range with Whistlers.

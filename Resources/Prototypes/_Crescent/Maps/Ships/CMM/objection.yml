@@ -1,0 +1,38 @@
+# Author Info
+# Discord: the_inbetwixt
+
+- type: vessel
+  id: Objection
+  name: TS Objection
+  description: |
+    LOADOUT: 2x 150cc 'Starburst' plasma gatling
+    MINIMUM CREW: 1x Pilot
+    Original prototype design featured dual hardlight repeaters. After TSP was disbanded and milita lost DSM backing access to such technology was lost.
+  price: 20000
+  category: Small
+  group: None
+  path: /Maps/_Crescent/Shuttles/CMM/objection.yml
+
+- type: gameMap
+  id: Objection
+  mapName: 'TS Objection'
+  mapPath: /Maps/_Crescent/Shuttles/CMM/objection.yml
+  minPlayers: 0
+  stations:
+    Objection:
+      stationProto: StandardCrescentExpeditionVessel
+      components:
+        - type: VesselIcon
+          iffIcon:
+            sprite: _Crescent/ShipIcons/ifficons.rsi
+            state: fighter
+        - type: StationNameSetup
+          mapNameTemplate: 'TS Objection {1}'
+          nameGenerator:
+           !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: VesselDesignation
+          designation: vessel-designation-fighter
+        - type: VesselDescription
+          description: A small compact fighter, excells at short range brawl.
+
