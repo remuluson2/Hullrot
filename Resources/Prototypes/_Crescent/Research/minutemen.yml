@@ -8,19 +8,17 @@
 # (explosives, propelland and casings production)
 # (ammo assembly)
 
-#CMM NIMROD
-
-#- type: technology
-#  id: MinutemenBoltRifle
-#  name: research-technology-minutemen-bolt-rifle
-#  icon:
-#    sprite: _Crescent/Objects/Weapons/Guns/nimrod.rsi
-#    state: icon
-#  discipline: Minutemen
-#  tier: 1
-#  cost: 6000
-#  recipeUnlocks:
-#  - WeaponRifleCMMNimrod
+- type: technology
+  id: MinutemenBoltRifle
+  name: research-technology-minutemen-bolt-rifle
+  icon:
+    sprite: _Crescent/Objects/Weapons/Guns/nimrod.rsi
+    state: icon
+  discipline: Minutemen
+  tier: 1
+  cost: 6000
+  recipeUnlocks:
+  - WeaponRifleCMMNimrod
 
 - type: technology
   id: MinutemenHybridCorvette
@@ -42,12 +40,12 @@
     state: icon
   discipline: Minutemen
   tier: 1
-  cost: 12000
+  cost: 9000 # 12k if guard comes back
   recipeUnlocks:
   - RespondantLPC
   - AdjudicatorLPC
   - SentryLPC
-  - GuardLPC
+  #- GuardLPC --uncomment someday in the future when we will get an UL
 
 #tier 2
 
@@ -76,6 +74,18 @@
   cost: 8000
   recipeUnlocks:
   - ArbiterLPC
+
+- type: technology
+  id: MinutemenIonDestroyer
+  name: research-technology-minutemen-ion-destroyer
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Minutemen
+  tier: 2
+  cost: 8000
+  recipeUnlocks:
+  - JudgeLPC
   
 - type: technology
   id: MinutemenLightMissileDestroyer

@@ -8,7 +8,7 @@
     A corvette designated for wolfpack attacks.
     LOADOUT: 1x 200cc 'Bolter' plasma reeater, 2x 48mm 'Shortbow' SRMs
     MINIMUM CREW: 1x Pilot, Loader Optional
-  price: 100000
+  price: 45000
   category: Small
   group: None
   path: /Maps/_Crescent/Shuttles/CMM/minuteman.yml

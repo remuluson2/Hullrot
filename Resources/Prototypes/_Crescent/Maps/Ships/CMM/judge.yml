@@ -1,0 +1,37 @@
+# Author Info
+# Discord: szyefan
+
+- type: vessel
+  id: Judge
+  name: TS Judge
+  description: |
+    Minutemen destroyer. Its main purpose is disabling enemy shields using its 300w 'Curse' ion blaster.
+    LOADOUT: 1x 300w 'Curse' ion blaster, 6x 50mm 'Whistler' gatlings
+    MINIMUM CREW: 1x Pilot, 1x Gunner, 1x Loader
+  price: 100000
+  category: Small
+  group: None
+  path: /Maps/_Crescent/Shuttles/CMM/judge.yml
+
+- type: gameMap
+  id: Judge
+  mapName: 'TS Judge'
+  mapPath: /Maps/_Crescent/Shuttles/CMM/judge.yml
+  minPlayers: 0
+  stations:
+    Judge:
+      stationProto: StandardCrescentExpeditionVessel
+      components:
+        - type: VesselIcon
+          iffIcon:
+            sprite: _Crescent/ShipIcons/ifficons.rsi
+            state: destroyer
+        - type: StationNameSetup
+          mapNameTemplate: 'TS Judge {1}'
+          nameGenerator:
+           !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: VesselDesignation
+          designation: vessel-designation-destroyer
+        - type: VesselDescription
+          description: A ship designed to support rest of the fleet in taking down shields.

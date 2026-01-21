@@ -367,6 +367,7 @@
       - GuardLPC
       - AdjudicatorLPC
       - ExecutionerLPC
+      - JudgeLPC
       - ClothingOuterHardsuitMinutemenEnsign
       - WeaponRifleCMMNimrod
       #MinutemenEnd

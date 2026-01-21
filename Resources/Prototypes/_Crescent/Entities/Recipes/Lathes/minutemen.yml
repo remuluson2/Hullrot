@@ -63,6 +63,15 @@
     ShipHull: 1000
 
 - type: latheRecipe
+  id: JudgeLPC
+  result: ShipVoucherJudge
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 4500
+    ShipComponents: 5500
+    ShipHull: 4500
+
+- type: latheRecipe
   id: ExecutionerLPC
   result: ShipVoucherExecutioner
   completetime: 1

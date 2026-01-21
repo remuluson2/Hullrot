@@ -164,7 +164,8 @@
     - Respondant
     - Adjudicator
     - Sentry
-    - Guard
+    - Minuteman #instead of guard for now
+    #- Guard --uncomment when we get an UL
 
 - type: entity
   id: RefugeMothershipComputer
