@@ -34,6 +34,12 @@ public sealed class MoverController : SharedMoverController
         SubscribeLocalEvent<PilotedShuttleComponent, StartCollideEvent>(PilotedShuttleRelayEvent<StartCollideEvent>); // Mono
     }
 
+    private void OnRelayPlayerAttached(Entity<RelayInputMoverComponent> entity, ref PlayerAttachedEvent args)
+    {
+        if (MoverQuery.TryGetComponent(entity.Comp.RelayEntity, out var inputMover))
+            SetMoveInput((entity.Comp.RelayEntity, inputMover), MoveButtons.None);
+    }
+
     private void OnRelayPlayerDetached(Entity<RelayInputMoverComponent> entity, ref PlayerDetachedEvent args)
     {
         if (MoverQuery.TryGetComponent(entity.Comp.RelayEntity, out var inputMover))
