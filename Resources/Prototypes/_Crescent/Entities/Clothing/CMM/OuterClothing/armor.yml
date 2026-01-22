@@ -173,7 +173,7 @@
     armorRepair: NTPolymer
     initialModifiers:
       flatReductions:
-        Blunt: 35
+        Blunt: 30
         Slash: 25
         Piercing: 55
         Heat: 20
