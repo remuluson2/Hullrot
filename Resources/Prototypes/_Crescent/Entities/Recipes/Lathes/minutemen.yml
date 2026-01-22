@@ -104,6 +104,15 @@
 
 #WEAPONS
 - type: latheRecipe
+  id: WeaponShotgunKammerer
+  result: WeaponShotgunKammerer
+  completetime: 1
+  materials:
+    Steel: 1500
+    Plasteel: 500
+    BallisticCycler: 1000
+
+- type: latheRecipe
   id: WeaponRifleCMMNimrod
   result: WeaponRifleCMMNimrod
   completetime: 1

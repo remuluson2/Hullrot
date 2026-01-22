@@ -46,7 +46,8 @@ research-technology-minutemen-light-missile-destroyer = minutemen missile destro
 research-technology-minutemen-hardsuit = minutemen combat EVA
 research-technology-minutemen-light-nt-corvette = minutemen high tech NT corvette
 research-technology-minutemen-bolt-rifle = minutemen bolt-action rifle
-research-technology-minutemen-ion-destroyer = minutemen ion destroyer
+research-technology-minutemen-ion-destroyer = minutemen hybrid brawler destroyer
+research-technology-minutemen-shotgun = minutemen kammer shotgun
 
 # INTERDYNE
 research-technology-interdyne-clothing = Basic Clothing

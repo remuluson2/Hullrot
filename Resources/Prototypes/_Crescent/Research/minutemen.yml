@@ -16,7 +16,7 @@
     state: icon
   discipline: Minutemen
   tier: 1
-  cost: 6000
+  cost: 3000
   recipeUnlocks:
   - WeaponRifleCMMNimrod
 
@@ -28,7 +28,7 @@
     state: icon
   discipline: Minutemen
   tier: 1
-  cost: 9000
+  cost: 5000
   recipeUnlocks:
   - MinutemanLPC
   - SentinelLPC
@@ -41,7 +41,7 @@
     state: icon
   discipline: Minutemen
   tier: 1
-  cost: 9000 # 12k if guard comes back
+  cost: 5000 # 6k if guard comes back
   recipeUnlocks:
   - RespondantLPC
   - AdjudicatorLPC
@@ -50,7 +50,18 @@
 
 #tier 2
 
-# maybe krammer in the future
+# maybe kammer in the future
+#- type: technology
+#  id: MinutemenShotgun
+#  name: research-technology-minutemen-shotgun
+#  icon:
+#    sprite: _Crescent/Objects/Weapons/Guns/kammer.rsi
+#    state: icon
+#  discipline: Minutemen
+#  tier: 2
+#  cost: 6000
+#  recipeUnlocks:
+#  - WeaponShotgunKammerer
 
 - type: technology
   id: MinutemenHardsuit
@@ -98,7 +109,7 @@
     state: icon
   discipline: Minutemen
   tier: 3
-  cost: 12000
+  cost: 10000
   recipeUnlocks:
   - JudgeLPC
 
@@ -110,6 +121,6 @@
     state: icon
   discipline: Minutemen
   tier: 3
-  cost: 12000
+  cost: 10000
   recipeUnlocks:
   - ExecutionerLPC
