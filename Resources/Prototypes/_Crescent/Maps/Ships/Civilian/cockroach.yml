@@ -25,7 +25,7 @@
         - type: VesselIcon
           iffIcon:
             sprite: _Crescent/ShipIcons/ifficons.rsi
-            state: bigindustrial
+            state: large_industrial
         - type: StationNameSetup
           mapNameTemplate: 'Cockroach {1}'
           nameGenerator:

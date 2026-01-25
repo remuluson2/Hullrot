@@ -1,8 +1,8 @@
 - type: vessel
   id: Impel
   name: DSM Impel
-  description: An Imperial salvaging and mining shuttle with a large cargohold.
-  price: 30000
+  description: An Imperial hauler shuttle with a large cargohold, and some handheld equipment for salvaging or mining.
+  price: 35000
   category: Small
   group: None
   path: /Maps/_Crescent/Shuttles/DSM/impel.yml
@@ -19,7 +19,7 @@
         - type: VesselIcon
           iffIcon:
             sprite: _Crescent/ShipIcons/ifficons.rsi
-            state: industrial
+            state: hauler
         - type: StationNameSetup
           mapNameTemplate: 'DSM Impel {1}'
           nameGenerator:
