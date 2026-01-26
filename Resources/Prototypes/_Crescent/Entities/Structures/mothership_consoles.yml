@@ -13,6 +13,8 @@
     - Stern
     - Gargut
     - Hind
+    - Vasinya
+    - Vachenka
 
 - type: entity
   id: NCWLLightCarrierComputer
@@ -63,6 +65,8 @@
     - Imparator
     - Praetorian
     - Laelaps
+    - Dragoon
+    - Suzerain
 
 - type: entity
   id: NemesisMothershipComputer

@@ -1349,15 +1349,14 @@ entities:
     - type: SelfDeleteGrid
 - proto: AAAHardpointSmallEnergy
   entities:
-  - uid: 2
+  - uid: 4
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 8.5,13.5
+      pos: -7.5,13.5
       parent: 1
     - type: Physics
       canCollide: False
-  - uid: 3
+  - uid: 5
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -1365,7 +1364,7 @@ entities:
       parent: 1
     - type: Physics
       canCollide: False
-  - uid: 4
+  - uid: 838
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
