@@ -2224,7 +2224,7 @@ entities:
     - type: VesselIcon
       iffIcon:
         sprite: _Crescent/ShipIcons/ifficons.rsi
-        state: dreadnought
+        state: capital
     - type: GridAtmosphere
       version: 2
       data:

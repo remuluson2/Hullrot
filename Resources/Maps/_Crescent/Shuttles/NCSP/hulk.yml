@@ -2038,7 +2038,7 @@ entities:
     - type: VesselIcon
       iffIcon:
         sprite: _Crescent/ShipIcons/ifficons.rsi
-        state: dreadnought
+        state: capital
     - type: BecomesStation
       id: Hulk
     - type: SelfDeleteGrid

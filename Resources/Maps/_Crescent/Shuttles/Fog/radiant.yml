@@ -2271,7 +2271,7 @@ entities:
     - type: VesselIcon
       iffIcon:
         sprite: _Crescent/ShipIcons/ifficons.rsi
-        state: dreadnought
+        state: capital
 - proto: AAAHardpointFixed
   entities:
   - uid: 2
