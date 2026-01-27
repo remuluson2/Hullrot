@@ -14,7 +14,7 @@
         Structural: 125
         Blunt: 40
   - type: TimedDespawn
-    lifetime: 8
+    lifetime: 20 #800m + Lock on range = 1200m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/shortbow.rsi
     layers:
@@ -82,7 +82,7 @@
         Structural: 150
         Blunt: 40
   - type: TimedDespawn
-    lifetime: 5
+    lifetime: 20 #800m + Lock on range = 1100m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/shortbow.rsi
     layers:
@@ -151,7 +151,7 @@
         Structural: 175
         Blunt: 40
   - type: TimedDespawn
-    lifetime: 8
+    lifetime: 18 #1080 + Lock on range = 1880m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/azimuth.rsi
     layers:
@@ -217,7 +217,7 @@
         Structural: 250
         Blunt: 40
   - type: TimedDespawn
-    lifetime: 4
+    lifetime: 18 #1080m + Lock on range = 1780m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/azimuth.rsi
     layers:
@@ -250,7 +250,7 @@
         Structural: 200
         Blunt: 40
   - type: TimedDespawn
-    lifetime: 10
+    lifetime: 18 #1080m + Lock on range = 2080m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/azimuth.rsi
     layers:
@@ -283,7 +283,7 @@
         Structural: 200
         Blunt: 40
   - type: TimedDespawn
-    lifetime: 9
+    lifetime: 18 #1080m + Lock on range = 1930m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/azimuth.rsi
     layers:
@@ -319,7 +319,7 @@
         Structural: 225
         Blunt: 60
   - type: TimedDespawn
-    lifetime: 11 #roughly 1,035-1,060-1,075m range depending on shipgun
+    lifetime: 20 #1200m + Lock on range = 2700m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/arbalest.rsi
     layers:
@@ -386,7 +386,7 @@
         Structural: 225
         Blunt: 60
   - type: TimedDespawn
-    lifetime: 14 #roughly 1,345-1,360-1,375m range depending on shipgun
+    lifetime: 20 #1200 + Lock on range = 2700m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/arbalest.rsi
     layers:
@@ -453,7 +453,7 @@
         Structural: 275
         Blunt: 60
   - type: TimedDespawn
-    lifetime: 7 #roughly 795-810-825m range depending on shipgun
+    lifetime: 20 #1200m + Lock on range = 2200m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/arbalest.rsi
     layers:
@@ -522,7 +522,7 @@
         Structural: 275
         Blunt: 60
   - type: TimedDespawn
-    lifetime: 18 #roughly 1,480m range
+    lifetime: 50 #1500m + Lock on range = 3000m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/gargoyle.rsi
     layers:
@@ -590,7 +590,7 @@
         Structural: 275
         Blunt: 60
   - type: TimedDespawn
-    lifetime: 23 #roughly 1,880m range
+    lifetime: 50 #1500m + Lock on range = 4500m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/gargoyle.rsi
     layers:
@@ -660,7 +660,7 @@
         Structural: 275
         Blunt: 60
   - type: TimedDespawn
-    lifetime: 25
+    lifetime: 100 #3000m + Lock on = 8000m  (This might need adjustment)
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/catapult.rsi
     layers:
@@ -731,7 +731,7 @@
         Structural: 125
         Blunt: 40
   - type: TimedDespawn
-    lifetime: 5
+    lifetime: 25 #625m + Lock on = 1025m
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/shortbow.rsi
     layers:
