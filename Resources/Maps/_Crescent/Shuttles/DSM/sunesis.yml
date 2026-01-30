@@ -2469,11 +2469,11 @@ entities:
           - SpaceArtilleryFire
     - type: NamedModules
       buttonNames:
-      - Fire Starburst Cannon
-      - Module B
-      - Module C
-      - Module D
-      - Module E
+      - Fire 'Starburst' hybrid plasma gatling
+      - Empty Module
+      - Empty Module
+      - Empty Module
+      - Empty Module
     - type: ContainerContainer
       containers:
         board: !type:Container
