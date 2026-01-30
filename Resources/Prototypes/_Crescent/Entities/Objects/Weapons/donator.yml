@@ -804,13 +804,13 @@
   description: A railgun prototype of Nanotrasen design, reclaimed from the depths of the Boundary's fog. On this one's stock is scratched a phrase, Hence nothing remains except for our regrets.
   components:
   - type: Sprite
-    sprite: _Crescent/Objects/Weapons/Guns/Enoch.rsi
+    sprite: _Crescent/Objects/Weapons/Guns/enoch.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
   - type: Item
     size: Large
-    sprite: _Crescent/Objects/Weapons/Guns/Enoch.rsi
+    sprite: _Crescent/Objects/Weapons/Guns/enoch.rsi
     shape:
     - 0,0,5,2
   - type: ItemSlots
@@ -833,7 +833,7 @@
     soundBoltOpened: /Audio/Weapons/Guns/Cock/revolver_cock.ogg
     soundRack: /Audio/Weapons/Guns/Cock/revolver_cock.ogg
   - type: Clothing
-    sprite: _Crescent/Objects/Weapons/Guns/railgun.rsi
+    sprite: _Crescent/Objects/Weapons/Guns/enoch.rsi
     quickEquip: false
     slots:
     - Belt
