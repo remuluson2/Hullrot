@@ -856,7 +856,7 @@
 - type: entity
   name: NT-Pattern Japhet Charge Rifle 6x24mm
   parent: [BaseWeaponRifle, StreeCredRedeemableLow]
-  id: WeaponSpecialChargeRifleJaphet
+  id: WeaponJaphetChargeRifle
   description: A charge rifle prototype of Nanotrasen design, reclaimed from the depths of the Boundary's fog. An orchid is crudely drawn on the side of the rifle's barrel.
   components:
   - type: Clothing
@@ -903,6 +903,6 @@
       gun_chamber: !type:ContainerSlot
   - type: MagazineVisuals
     magState: mag
-    steps: 3
+    steps: 5
     zeroVisible: true
   - type: Appearance
