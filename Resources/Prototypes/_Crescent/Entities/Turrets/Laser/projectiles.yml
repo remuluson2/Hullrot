@@ -96,8 +96,8 @@
   - type: Explosive
     explosionType: Default
     maxIntensity: 200
-    intensitySlope: 20000
-    totalIntensity: 50
+    intensitySlope: 50
+    totalIntensity: 20000
   - type: ProjectileIFF
     visualType: Circle
     color: Red
