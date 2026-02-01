@@ -11,7 +11,7 @@
   result: TradeGoodMiltech
   completetime: 2
   materials:
-    Steel: 37500
+    Steel: 10000
     Gold: 1500
     Silver: 1000
 
@@ -20,7 +20,7 @@
   result: TradeGoodAlloys
   completetime: 2
   materials:
-    Steel: 45000
+    Steel: 10000
     Plasma: 2500
 
 - type: latheRecipe
@@ -75,7 +75,6 @@
   completetime: 2
   materials:
     HideMothroach: 2500
-    Biomass: 50
 
 - type: latheRecipe
   id: FillamentSilkCrate
@@ -97,7 +96,7 @@
   result: TradeGoodAntibiotics
   completetime: 2
   materials:
-    Biomass: 150
+    Biomass: 100
 
 - type: latheRecipe
   id: CyberneticCrate
@@ -119,35 +118,35 @@
   result: TradeGoodGunparts
   completetime: 2
   materials:
-    Steel: 15000
+    Steel: 10000
 
 - type: latheRecipe
   id: Ammocrate
   result: TradeGoodAmmo
   completetime: 2
   materials:
-    Steel: 15000
+    Steel: 10000
 
 - type: latheRecipe
   id: Scopcrate
   result: TradeGoodScop
   completetime: 2
   materials:
-    Biomass: 150
+    Biomass: 100
 
 - type: latheRecipe
   id: UnionWeaponCrate
   result: TradeGoodUnionWeapon
   completetime: 2
   materials:
-    Steel: 15000
+    Steel: 10000
 
 - type: latheRecipe
   id: UnionArmorCrate
   result: TradeGoodUnionArmor
   completetime: 2
   materials:
-    Steel: 15000
+    Steel: 10000
 
 - type: latheRecipe
   id: UnionVodka
@@ -162,7 +161,7 @@
   result: TradeGoodUnionBallistic
   completetime: 2
   materials:
-    Steel: 15000
+    Steel: 10000
     Uranium: 2500
 
 - type: latheRecipe
